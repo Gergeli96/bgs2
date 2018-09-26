@@ -1,0 +1,20 @@
+{
+  "name": "bgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.6",
+    "html-pdf-chrome": "^0.5.0",
+    "tfk-json-to-xlsx": "^1.0.11"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.2"
+  }
+}

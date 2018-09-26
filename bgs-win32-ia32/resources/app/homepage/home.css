@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech', sans-serif;;
+}
+
+.container {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  background-size: 100% auto;
+}
+
+.settings {
+  width: 91%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 50px;
+}
+
+.inputs {
+  width: 58%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input[type=text] {
+  width: 65%;
+  height: 25px;
+  padding: 5px 10px;
+  margin: 13px 0;
+}
+
+.box {
+  display: flex;
+  width: 65%;
+  height: 25px;
+  margin: 13px 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.box input[type=checkbox] {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.box select {
+  width: 50%;
+  height: 25px;
+}
+
+.btn {
+  width: 30%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  border: none;
+  background-color: rgba(195, 48, 0, 0.79);
+  color: white;
+}
+
+.pluszTetolap {
+  width: 65%;
+  min-height: 25px;
+  margin: 13px 0;
+  display: flex;
+  flex-direction: column;
+}
+.pluszTetolap.box {
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.materialList {
+  width: 60%;
+  min-height: 100px;
+}
+
+.materialList li {
+  width: 100;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li .first {
+  margin-left: 20px;
+  width: 150px;
+}
+
+li .last{
+  margin-right: 20px;
+  width: 100px;
+}
+
+.liDiv {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.dekor {
+  width: 39%;
+  height: 100%;
+}
+
+.tableContainer {
+  width: 90vw;
+  min-height: 100px;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 80vw;
+  min-height: 100px;
+}
+
+tbody {
+  width: 80vw;
+  min-height: 100px;
+}
+
+tr {
+  width: 80vw;
+  height: 25px;
+}
+
+td {
+  width: 33%;
+}
+
+thead {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr td:first-child {
+  padding-left: 2%;
+}
+
+tr td:nth-child(2) {
+  text-align: center;
+}
+
+tr td:last-child {
+  text-align: center;
+}
+
+thead tr td:nth-child(2) {
+  text-align: center;
+}
+
+thead tr td:last-child {
+  text-align: center;
+}
+
+thead tr {
+  border-bottom: 1px solid black;
+}
+
+tbody tr td {
+  margin: 8px 0;
+  font-size: 3vh;
+}
+
+thead tr td {
+  margin-bottom: 10px;
+  font-size: 4vh;
+}
+
+.toExcel {
+  width: 95vw;
+  min-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toExcel label {
+  margin: 2vh 5vw;
+}
+
+.toExcel input {
+  margin: 0 1vw;
+}
+
+.toExcel button {
+  margin: 1vh 0;
+  border: none;
+  background-color: rgb(93, 202, 138);
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+  padding: 3px 25px;
+}
+
+.tables {
+  width: 80vw;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 0;
+}
+
+.tables h2 {
+  margin: 1vh 0;
+}

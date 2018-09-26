@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./home.css">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+  <title>BGS</title>
+</head>
+<body>
+  <div class="container">
+    <div class="head">
+      <img src="../assets/companyLogo.jpg" alt="Itt kellene lennie a logónak!" class="logo">
+    </div>
+
+    <div class="settings">
+      <div class="inputs">
+
+        <input type="text" placeholder="Táblázat név" class="tablazatnev">
+        <input type="text" placeholder="Szélesség" class="xTengely">
+        <input type="text" placeholder="Magasság" class="yTengely">
+        <input type="text" placeholder="Mélységy" class="zTengely">
+
+        <div class="box">
+          <input type="checkbox" class="pointer furneros">
+          <p>Furnéros</p>
+        </div>
+
+        <div class="box">
+          <input type="checkbox" class="pointer tetolap">
+          <p>Az tetőlap megy végig</p>
+        </div>
+
+        <div class="box">
+          <input type="checkbox" class="pointer">
+          <p>Függesztett szekrény</p>
+        </div>
+
+        <div class="box">
+          <input type="checkbox" class="pointer mosogatos">
+          <p>Mosogató szekrény</p>
+        </div>
+
+        <div class="pluszTetolap">
+          <div class="box">
+            <input type="checkbox" class="pointer vanTetolap">
+            <p>Van tetőlap</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>Függőleges osztók száma:</p>
+          <select name="" id="" class="fuggolegesO">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <p>Vízszintes osztók száma:</p>
+          <select name="" id="" class="vizszintesO">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <p>Polcok száma:</p>
+          <select name="" id="" class="polcok">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <p>Ajtók száma:</p>
+          <select name="" id="" class="ajtok">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <p>Pánt típusa:</p>
+          <select name="" id="" class="pant">
+            <option value="Ráütödő">Ráütödő</option>
+            <option value="Félig ráütödő">Félig ráütödő</option>
+            <option value="Közézáródó (csak az oldalakon)">Közézáródó (csak az oldalakon)</option>
+            <option value="Közézáródó (alul fellül)">Közézáródó (alul fellül)</option>
+            <option value="Mindenhol közézáródó">Mindenhol közézáródó</option>
+            <option value="Közézáródó (osztók látszanak)">Közézáródó (osztók látszanak)</option>
+          </select>
+        </div>
+
+
+        <button class="btn pointer">Számol</button>
+      </div>
+
+      <div class="dekor"></div>
+    </div>
+
+    <div class="tableContainer">
+
+    </div>
+
+    <div class="toExcel">
+      <label>File név
+        <input class="fileName">
+      </label>
+      <button class="excel">Excel</button>
+    </div>
+
+    <script src="./home.js"></script>
+  </div>
+</body>
+</html>
